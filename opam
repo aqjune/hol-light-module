@@ -1,4 +1,5 @@
 opam-version: "2.0"
+name: "hol_light_module"
 authors: "HOL Light"
 homepage: "https://hol-light.github.io"
 bug-reports: "https://github.com/jrh13/hol-light/issues"
