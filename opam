@@ -7,7 +7,15 @@ conflicts: [
   "ocaml" {< "4.0.5"}
 ]
 synopsis: "A flag for compiling HOL Light core to a bytecode and native module"
+license: "https://github.com/jrh13/hol-light/blob/master/LICENSE"
+dev-repo: "git+https://github.com/jrh13/hol-light.git"
 description: """
 Installing this package makes the hol-light package to build the
 bytecode and native module of HOL Light core as well.
+
+NOTE: This extends the trusted base of HOL Light to include its inliner script,
+inline_loads.ml. inline_loads.ml is an OCaml program in HOL Light that receives
+an HOL Light proof and replaces the loads/loadt/needs function invocations with
+their actual contents. Please install this package only if having this
+additional trusted base is considered okay.
 """
