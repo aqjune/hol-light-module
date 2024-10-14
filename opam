@@ -1,10 +1,10 @@
 opam-version: "2.0"
 authors: "HOL Light"
-maintainer: "Juneyoung Lee"
 homepage: "https://hol-light.github.io"
 bug-reports: "https://github.com/jrh13/hol-light/issues"
-conflicts: [
-  "ocaml" {< "4.0.5"}
+maintainer: ["John Harrison <jrh013@gmail.com>" "Juneyoung Lee <aqjune@gmail.com>"]
+depends: [
+  "ocaml" {>= "4.14.0"}
 ]
 synopsis: "A flag for compiling HOL Light core to a bytecode and native module"
 license: "https://github.com/jrh13/hol-light/blob/master/LICENSE"
