@@ -1,0 +1,13 @@
+opam-version: "2.0"
+authors: "HOL Light"
+maintainer: "Juneyoung Lee"
+homepage: "https://hol-light.github.io"
+bug-reports: "https://github.com/jrh13/hol-light/issues"
+conflicts: [
+  "ocaml" {< "4.0.5"}
+]
+synopsis: "A flag for compiling HOL Light core to a bytecode and native module"
+description: """
+Installing this package makes the hol-light package to build the
+bytecode and native module of HOL Light core as well.
+"""
